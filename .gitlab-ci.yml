@@ -1,0 +1,7 @@
+include:
+  - project: "artlistltd/billing/core-billing-registry"
+    ref: master
+    file: ".gitlab-ci-docker-build.yml"
+
+variables:
+  SERVICE_NAME: "template-service-api"
